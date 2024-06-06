@@ -1,0 +1,32 @@
+.ul {
+    display: flex;
+    background-color: #E1CAE4;
+    border-radius: 12px;
+    height: 198px;
+    padding: 0px;
+
+    .ul__li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 19px 10px 19px;
+        color: #000000;
+        font-size: 12px;
+
+        .li__d {
+            display: flex;
+            align-items: end;
+            width: 21px;
+            height: 178px;
+            background-color: #BAA5ED;
+            border-radius: 50px;
+            border: 1px solid black;
+            overflow: hidden;
+
+            .d__div {
+                width: 21px;
+                background-color: #3D15A9;
+            }
+        }
+    }
+}

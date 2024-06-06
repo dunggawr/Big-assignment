@@ -1,0 +1,53 @@
+.update{
+    box-sizing: border-box;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    background-color: #897BDA;
+    border-radius: 12px;
+    transform: translate(-50%, -50%);
+
+    .upDiv{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        background-color: #A300DB;
+    }
+
+    .upInput{
+        border: 1px solid #897BDA;
+        outline: none;
+        border-radius: 12px;
+        height: 30px;
+        width: 200px;
+    }
+
+    .upBtn{
+        background-color: #862796;
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        font-size: 20px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+        border: none;
+    }
+}

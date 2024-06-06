@@ -1,0 +1,28 @@
+.div {
+    box-sizing: border-box;
+    display: flex;
+    width: 799px;
+    height: 100px;
+    background-color: #897BDA;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 35px 0px 0px 400px;
+
+}
+
+.button{
+    box-sizing: border-box;
+    display: flex;
+    width: 277px;
+    height: 44px;
+    background-color: #862796;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    color: white;
+}
